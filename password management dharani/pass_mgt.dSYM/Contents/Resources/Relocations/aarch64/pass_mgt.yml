@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/tharunr/c files/password management dharani/pass_mgt'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038D8, symSize: 0x190 }
+  - { offsetInCU: 0x42, offset: 0x42, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x1000038D8, symSize: 0x190 }
+  - { offsetInCU: 0x86, offset: 0x86, size: 0x8, addend: 0x0, symName: _loadAccounts, symObjAddr: 0x1A0, symBinAddr: 0x100003A78, symSize: 0x108 }
+  - { offsetInCU: 0xC6, offset: 0xC6, size: 0x8, addend: 0x0, symName: _addAccount, symObjAddr: 0x2A8, symBinAddr: 0x100003B80, symSize: 0xD4 }
+  - { offsetInCU: 0xF8, offset: 0xF8, size: 0x8, addend: 0x0, symName: _displayAccounts, symObjAddr: 0x37C, symBinAddr: 0x100003C54, symSize: 0xA0 }
+  - { offsetInCU: 0x146, offset: 0x146, size: 0x8, addend: 0x0, symName: _saveAccounts, symObjAddr: 0x41C, symBinAddr: 0x100003CF4, symSize: 0xE0 }
+...
